@@ -1,0 +1,62 @@
+
+:root {
+	--yellow: #f6e767;
+	--white: #f6f7f8;
+	--black: #2c2e31;
+}
+
+* {
+	text-align: center;
+	background-color: var(--black);
+}
+
+body {
+	display: flex;
+	flex-flow: column nowrap;
+	align-items: center;
+	position: relative;
+}
+
+h1 {
+	color: var(--yellow);
+	margin-bottom: 15px;
+	position: sticky;
+    margin: 0 auto;
+}
+
+#header {
+	font-family: American Typewriter, serif;
+}
+
+button {
+	font-family: sans-serif;
+	font-size: 18px;
+	color: var(--black);
+	padding: 10px;
+	background: var(--yellow);
+	border-radius: 10px;
+	transition: 0.1s;
+	cursor: pointer;
+	margin-top: 50px;
+
+}
+
+#setup {
+	color: white;
+}
+
+#punchline {
+	font-weight: 600;
+	font-size: 1.5rem;
+	color: white;
+}
+
+#joke {
+	margin-top: 20px;
+}
+
+#error {
+	color: red;
+	font-size: 18px;
+}
+
