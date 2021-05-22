@@ -26,11 +26,12 @@ h1 {
 	color: var(--yellow);
 	margin-bottom: 15px;
 	position: sticky;
-    margin: 0 auto;
+    	margin: 0 auto;
 }
 
 #header {
 	font-family: American Typewriter, serif;
+	margin-top: 50px;
 }
 
 button {
@@ -43,6 +44,7 @@ button {
 	transition: 0.1s;
 	cursor: pointer;
 	margin-top: 50px;
+	margin-bottom: 20px;
 
 }
 
