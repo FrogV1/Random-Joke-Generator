@@ -15,6 +15,11 @@ body {
 	flex-flow: column nowrap;
 	align-items: center;
 	position: relative;
+	border: solid 2px var(--yellow);
+	border-radius: 10px;
+	margin-top: 15%;
+	margin-right: 400px;
+	margin-left: 400px;
 }
 
 h1 {
